@@ -1,0 +1,7 @@
+/* responsive.css (2026-11-02) for the Amazon Fresh walkthrough: header wraps on small phones. */
+@media (max-width: 480px) {
+  header { flex-wrap: wrap; gap: 8px 12px; padding: 10px 14px; }
+}
+@media (pointer: coarse) {
+  header .btn, header button { min-height: 40px; }
+}
